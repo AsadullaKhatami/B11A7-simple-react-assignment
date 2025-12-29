@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React, { Suspense } from "react";
 import './App.css'
+import Navbar from './components/Navbar/Navbar'
+import Banner from './components/Banner/Banner';
+import Auctions from "./components/Auctions/Auctions";
+
+const bidsFetch = async() => {
+  const bidsFetch = await fetch('products.json');
+  const bids = await bidsFetch.json();
+  return bids;
+}
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const bidsPromise = bidsFetch();
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="container">
+        <Navbar></Navbar>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Banner></Banner>
+      <Suspense fallback={<p>loading ..</p>}>
+        <Auctions bidsPromise={bidsPromise}></Auctions>
+      </Suspense>
     </>
-  )
+  );
 }
 
 export default App

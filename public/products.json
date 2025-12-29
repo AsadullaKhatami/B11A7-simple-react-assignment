@@ -1,0 +1,164 @@
+{
+  "bids": [
+    {
+      "id": 1,
+      "title": "Vintage Wrist Watch",
+      "description": "Classic analog wrist watch with leather strap, fully functional.",
+      "currentBidPrice": 120.5,
+      "timeLeft": "2h 15m",
+      "bidsCount": 8,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/watch/400/300"
+    },
+    {
+      "id": 2,
+      "title": "Gaming Headset",
+      "description": "Surround sound gaming headset with noise-canceling microphone.",
+      "currentBidPrice": 75,
+      "timeLeft": "5h 40m",
+      "bidsCount": 12,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/headset/400/300"
+    },
+    {
+      "id": 3,
+      "title": "Antique Wooden Chair",
+      "description": "Handcrafted antique wooden chair from the 1950s.",
+      "currentBidPrice": 210,
+      "timeLeft": "1d 3h",
+      "bidsCount": 5,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/chair/400/300"
+    },
+    {
+      "id": 4,
+      "title": "Smartphone 128GB",
+      "description": "Unlocked smartphone with 128GB storage and dual camera.",
+      "currentBidPrice": 340.99,
+      "timeLeft": "9h 10m",
+      "bidsCount": 18,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/phone/400/300"
+    },
+    {
+      "id": 5,
+      "title": "Digital Camera",
+      "description": "24MP digital camera with 4K video recording support.",
+      "currentBidPrice": 455,
+      "timeLeft": "2d 6h",
+      "bidsCount": 9,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/camera/400/300"
+    },
+    {
+      "id": 6,
+      "title": "Mountain Bicycle",
+      "description": "21-speed mountain bike suitable for off-road trails.",
+      "currentBidPrice": 520,
+      "timeLeft": "12h 30m",
+      "bidsCount": 14,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/bicycle/400/300"
+    },
+    {
+      "id": 7,
+      "title": "Wireless Earbuds",
+      "description": "Bluetooth wireless earbuds with charging case.",
+      "currentBidPrice": 60,
+      "timeLeft": "3h 50m",
+      "bidsCount": 11,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/earbuds/400/300"
+    },
+    {
+      "id": 8,
+      "title": "Laptop Backpack",
+      "description": "Water-resistant backpack fits up to 15.6-inch laptops.",
+      "currentBidPrice": 45.75,
+      "timeLeft": "1d 1h",
+      "bidsCount": 6,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/backpack/400/300"
+    },
+    {
+      "id": 9,
+      "title": "Smart Watch",
+      "description": "Fitness tracking smart watch with heart rate monitor.",
+      "currentBidPrice": 180,
+      "timeLeft": "6h 20m",
+      "bidsCount": 10,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/smartwatch/400/300"
+    },
+    {
+      "id": 10,
+      "title": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with deep bass.",
+      "currentBidPrice": 95,
+      "timeLeft": "4h 45m",
+      "bidsCount": 7,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/speaker/400/300"
+    },
+    {
+      "id": 11,
+      "title": "Electric Kettle",
+      "description": "1.7L stainless steel electric kettle with auto shut-off.",
+      "currentBidPrice": 38,
+      "timeLeft": "8h 10m",
+      "bidsCount": 4,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/kettle/400/300"
+    },
+    {
+      "id": 12,
+      "title": "Office Chair",
+      "description": "Ergonomic office chair with lumbar support.",
+      "currentBidPrice": 260,
+      "timeLeft": "2d 4h",
+      "bidsCount": 13,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/officechair/400/300"
+    },
+    {
+      "id": 13,
+      "title": "Coffee Maker",
+      "description": "Automatic drip coffee maker with timer.",
+      "currentBidPrice": 110,
+      "timeLeft": "10h 55m",
+      "bidsCount": 9,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/coffeemaker/400/300"
+    },
+    {
+      "id": 14,
+      "title": "Leather Wallet",
+      "description": "Genuine leather wallet with RFID protection.",
+      "currentBidPrice": 32,
+      "timeLeft": "7h 30m",
+      "bidsCount": 5,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/wallet/400/300"
+    },
+    {
+      "id": 15,
+      "title": "Table Lamp",
+      "description": "Modern bedside table lamp with warm LED light.",
+      "currentBidPrice": 55,
+      "timeLeft": "1d 8h",
+      "bidsCount": 6,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/lamp/400/300"
+    },
+    {
+      "id": 16,
+      "title": "Electric Guitar",
+      "description": "Six-string electric guitar, ideal for beginners.",
+      "currentBidPrice": 390,
+      "timeLeft": "2d 12h",
+      "bidsCount": 16,
+      "bidsNow": true,
+      "image": "https://picsum.photos/seed/guitar/400/300"
+    }
+  ]
+}
