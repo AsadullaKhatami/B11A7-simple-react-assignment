@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="w-[100%] h-20 bg-white text-xl">
       <div className="flex justify-between items-center w-[100%] h-[100%]">
-        <div>
+        <div className="text-3xl">
           <p>
             <span className="text-[#003EA4]">Action</span>
             <span className="text-[#FFD337]">Gallery</span>

@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Banner from './components/Banner/Banner';
 import Auctions from "./components/Auctions/Auctions";
+import Footer from "./components/Footer/Footer";
 
 const bidsFetch = async() => {
   const bidsFetch = await fetch('products.json');
@@ -21,6 +22,7 @@ function App() {
       <Suspense fallback={<p>loading ..</p>}>
         <Auctions bidsPromise={bidsPromise}></Auctions>
       </Suspense>
+      <Footer></Footer>
     </>
   );
 }
