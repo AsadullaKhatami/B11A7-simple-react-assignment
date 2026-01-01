@@ -1,11 +1,29 @@
-import React, { use } from 'react';
-import './auctions.css'
-import Auction from '../Auction/Auction';
-import Fevorite from '../FevoritesItems/Fevorite';
+import React, { use, useState } from "react";
+import "./auctions.css";
+import Auction from "../Auction/Auction";
+import Favorite from "../FevoritesItems/Fevorite";
 
 const Auctions = ({ bidsPromise }) => {
-    const { bids } = use(bidsPromise);
-    // console.log(bids);
+  const { bids } = use(bidsPromise);
+  const [favBid, setFavBid] = useState([]);
+  const [idBid, setId] = useState([]);
+
+  // favorite handel
+  const handelHeart = (bid) => {
+    setFavBid([...favBid, bid]);
+    setId([...idBid, bid.id]);
+  };
+
+  const clsBtn = (id) => {
+    console.log(id);
+
+    const clsBid = idBid.filter(ele => ele !== id);
+    setId(clsBid);
+
+    const clsFavBid = favBid.filter(ele => ele.id !== id);
+    setFavBid(clsFavBid);
+  }
+
   return (
     <div className="auction-bg py-[120px]">
       <div className="container">
@@ -18,10 +36,14 @@ const Auctions = ({ bidsPromise }) => {
       </div>
       <div className="container md:flex gap-6 w-screen">
         <div className="bg-white rounded-3xl p-5 w-[70%]">
-          <Auction bids={bids}></Auction>
+          <Auction
+            idBid={idBid}
+            handelHeart={handelHeart}
+            bids={bids}
+          ></Auction>
         </div>
-        <div className='w-[33%]'>
-          <Fevorite></Fevorite>
+        <div className="w-[33%]">
+          <Favorite clsBtn={clsBtn} favBid={favBid}></Favorite>
         </div>
         <div></div>
       </div>
